@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/profile.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+        <script>
+            $(function() {
+                $('.header').load(`header.html`)
+            })
+        </script>
+    </head>
+
+<body>
+    <div class="header"></div>
+    <div class="profile">
+        <div class="avatar">
+            <form>
+                <label>Avatar:</label>
+                <div id="avatar">
+                    <img src="../img/avatar-cute-meo-con-than-chet-700x695.jpg" alt="set avatar">
+                </div>
+                <button id="changeAvatar">Change avatar</button>
+                <div class="fullName__profile">
+                    <label>Name</label> <br>
+                    <input type="text" id="fullName" placeholder="fullName">
+                </div>
+                <div class="phoneNumber__profile">
+                    <label>Phone Number: </label> <br>
+                    <input type="text" id="phoneNumber" placeholder="Phone Number">
+                </div>
+                <div class="email__profile">
+                    <label>Email</label><br>
+                    <input type="text" id="email" placeholder="email">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

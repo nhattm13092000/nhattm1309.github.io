@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: mediumpurple;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.title {
+    padding: 160px 0 40px 0;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+.formLogin {
+    position: relative;
+    background-color: whitesmoke;
+    padding-top: 32px;
+    height: 480px;
+    width: 546px;
+    border-radius: 20px;
+}
+
+.intro {
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.intro>h1 {
+    font-size: 24px;
+    padding-bottom: 8px;
+}
+
+.intro>p {
+    font-size: 16px;
+    color: rgba(28, 31, 39, 0.5);
+}
+
+.selectCampus {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 32px;
+}
+
+
+label {
+    font-weight: 700;
+    min-width: 60vw;
+    padding-bottom: 16px;
+    font-size: 14px;
+}
+
+#campus {
+    width: 480px;
+    height: 40px;
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 40px 16px 0;   
+}
+
+
+.signInGG {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.signInGG>p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 16px;
+    width: 600px;
+    text-align: center;
+}
+
+
+.signGG {
+    display: flex;
+    align-items: center;
+    width: 251px;
+    height: 48px;
+    padding: 0 2px 0 2px;
+    cursor: pointer;
+    background-color: #4585F4;;
+    color: white;
+    margin: 8px 0 32px 0;
+    border: 0;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.signGG>i {
+    background-color: whitesmoke;
+    color: cornflowerblue;
+    padding: 10px;
+    border-radius: 2px;
+    width: 44px;
+    height: 44px;
+    font-size: 24px;
+}
+
+#signGG{
+    padding-left: 16px;
+}
+
+.signIn__Guest {
+    text-align: center;
+}
+
+.signIn__Guest>p {
+    padding-bottom: 16px;
+}
+
+#signIn__Guest {
+    padding: 12px;
+    gap: 10px;
+    width: 149px;
+    height: 48px;
+    background: rgba(28, 31, 39, 0.05);
+    border: 1px solid rgba(28, 31, 39, 0.1);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#signIn__Guest > i{
+    background-color: black;
+    color: white;
+    margin-right: 8px;
+    padding: 4px;
+    border-radius: 50%;
+}
